@@ -26,11 +26,11 @@ _expression_ A variable that represents a **[Window](Excel.Window.md)** object.
 
 ## Example
 
-This example splits the window and leaves 1.5 columns to the left of the split line.
+This example splits the window and leaves 3 columns to the left of the split line.
 
 ```vb
 Workbooks("BOOK1.XLS").Worksheets("Sheet1").Activate 
-ActiveWindow.SplitColumn = 1.5
+ActiveWindow.SplitColumn = 3
 ```
 
 
